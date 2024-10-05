@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body onload="cargarUsuarios();">
+
+    <header>
+        <h2 id="mensajeBienvenida"></h2>
+        <h1>Institución Universitaria de Barranquilla</h1>
+        <img src="../img/abajo.png" id="Bretractil" height="30px" width="30px" onclick="retractil()">
+    </header>
+    
+    <nav id="HD">
+        <ul>
+            <li><a href="adminindex.html">Menú principal</a></li>
+            <li><a href="admin.html">Verificar solicitudes</a></li>
+            <li><a href="aboutus.html">¿Qué somos?</a></li>
+            <li><a href="ubicacion.html">¿Dónde estamos?</a></li>
+            <li><a class="cerrar" onclick="cerrarSesion()">Cerrar Sesión</a></li>
+        </ul>
+    </nav>
+    
+    <h2>Usuarios y Trabajadores</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Rol</th>
+            </tr>
+        </thead>
+        <tbody id="tablaUsuarios">
+        </tbody>
+    </table>
+    <p id="totalUsuarios"></p>
+    
+    
+    <footer>
+        <p>Alvaro Muñoz | Jean Macias</p>
+    </footer>
+    <script src="../js/scripts.js" defer></script>    
+</body>
+</html>

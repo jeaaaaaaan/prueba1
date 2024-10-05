@@ -1,0 +1,263 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #d8d8d8;
+} 
+
+video {
+    margin: 35px;
+}
+
+iframe{
+    margin: 35px;
+}
+
+.caja{
+    background-color: #f4f4f4;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    padding: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    padding: 0 20px;
+         
+}
+
+.titulo h1 {           
+
+    text-align: center;           
+    flex-grow: 1;                 
+    display: flex;                
+    justify-content: center;      
+}
+
+.caja2{
+    background-color: #f4f4f4;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    padding: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1px;
+    margin-bottom: 30px;
+}
+
+.caja3{
+    background-color: #f4f4f4;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    margin-top: 1px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 25px;
+    justify-content: space-between;
+    position: relative;
+}
+
+#mensajeBienvenida {
+    margin: 0;
+    font-size: 18px;
+    order: 1; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header img {
+    order: 2;
+    margin-left: auto;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    width: 350px;
+    border-radius: 5px;
+    margin: 20px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.tarjeta-cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(37, 113, 255);
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.contenido {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box; }
+
+
+
+.conjunt{
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #5cb85c;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cerrar{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cerrar:hover{
+    background-color: rgb(214, 0, 0);
+}
+
+nav ul li a:hover {
+    background-color: #4cae4c;
+}
+
+footer {
+    background-color: #333333a6;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    margin: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: rgb(37, 113, 255);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+td a {
+    text-decoration: none;
+    color: rgb(37, 113, 255);
+}
+
+td a:hover {
+    text-decoration: underline;
+}

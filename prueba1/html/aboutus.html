@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voz profesional</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body onload="validarAcceso()">
+    <header>
+        <h1>Institución Universitaria de Barranquilla </h1>
+        <h2  id="mensajeBienvenida"></h2>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a class="cerrar" onclick="window.history.back();">Volver</a></li>
+            <li><a class="cerrar" onclick="cerrarSesion()">Cerrar Sesión</a></li>
+        </ul>
+    </nav>
+
+    <br>
+    <div class="info">
+        <div class="tarjeta">
+            <div class="tarjeta-cabecera">
+                <h1 class="titulo">Visión</h1>
+                <img src="../img/down.png" class="retractil" height="30px" width="30px" onclick="tarjetita(vision)">
+            </div>
+            <p class="contenido" id="vision">
+                El proyecto "Prototipo Voz Profesional" busca desarrollar una plataforma web dirigida a profesionales con títulos académicos que deseen promover sus servicios y conocimientos de manera accesible y visible en su área local.
+            </p>
+        </div>
+    
+        <div class="tarjeta">
+            <div class="tarjeta-cabecera">
+                <h1 class="titulo">Finalidad</h1>
+                <img src="../img/down.png" class="retractil" height="30px" width="30px" onclick="tarjetita(funcion)">
+            </div>
+            <p class="contenido" id="funcion">
+                Permitir a los usuarios registrarse y crear un perfil público con información clave y un certificado que acredite su profesionalismo. pretendemos facilitar la búsqueda de profesionales cualificados en distintas disciplinas, incrementar su visibilidad.            </p>
+        </div>
+    
+        <div class="tarjeta">
+            <div class="tarjeta-cabecera">
+                <h1 class="titulo">Objetivo</h1>
+                <img src="../img/down.png" class="retractil" height="30px" width="30px" onclick="tarjetita(obj)">
+            </div>
+            <p class="contenido" id="obj">
+                El objetivo principal de este prototipo es fomentar la conexión entre la demanda local de servicios profesionales y la oferta existente, reduciendo la brecha de comunicación que muchas veces impide que profesionales cualificados accedan a oportunidades laborales cercanas. La página también está diseñada para servir como una herramienta útil para personas y empresas que busquen resolver problemas específicos o contratar servicios especializados de manera confiable, con la garantía de que los profesionales inscritos cuentan con las acreditaciones necesarias.
+            </p>
+        </div>
+    
+        <div class="tarjeta">
+            <div class="tarjeta-cabecera">
+                <h1 class="titulo">Virtualidad</h1>
+                <img src="../img/down.png" class="retractil" height="30px" width="30px" onclick="tarjetita(virt)">
+            </div>
+            <p class="contenido" id="virt">
+                Este proyecto se justifica debido a la creciente necesidad de plataformas que promuevan de forma activa a los profesionales locales, ofreciendo una alternativa a los medios tradicionales de publicidad. En un mundo donde la visibilidad en línea es crucial para el éxito, esta plataforma busca empoderar a los profesionales y facilitar su acceso a un mercado local que requiere sus servicios, contribuyendo así al crecimiento de la economía local y a la resolución de problemas cotidianos que afectan tanto a individuos como a empresas.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <div class="tarjeta-cabecera">
+                <h1 class="titulo">Otros</h1>
+                <img src="../img/down.png" class="retractil" height="30px" width="30px" onclick="tarjetita(otros)">
+            </div>
+            <p class="contenido" id="otros">
+                La implementación de esta página web no solo incrementará el reconocimiento y los ingresos de los profesionales, sino que también servirá como un puente para mejorar la eficiencia en la resolución de problemas cotidianos que exigen conocimiento especializado, asegurando que la comunidad local tenga acceso directo a profesionales certificados y con experiencia.
+            </p>
+        </div>
+    </div>
+
+        <br><br>
+        <h1>CONOCE TODOS TUS PRIVILEGIOS</h1>
+
+        <div class="info">
+            <table>
+            <thead>
+                <tr>
+                    <th>Rol</th>
+                    <th>Acceso a Página</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Usuario</td>
+                    <td><a href="aboutus.html">About Us</a></td>
+                </tr>
+                <tr>
+                    <td>Usuario</td>
+                    <td><a href="usuario.html">Usuario</a></td>
+                </tr>
+                <tr>
+                    <td>Usuario</td>
+                    <td><a href="usuarioindex.html">Usuario Index</a></td>
+                </tr>
+                <tr>
+                    <td>Usuario</td>
+                    <td><a href="ubicacion.html">Ubicación</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+                <thead>
+                    <tr>
+                        <th>Rol</th>
+                        <th>Acceso a Página</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Trabajador</td>
+                        <td><a href="aboutus.html">About Us</a></td>
+                    </tr>
+                    <tr>
+                        <td>Trabajador</td>
+                        <td><a href="trabajador.html">Trabajador</a></td>
+                    </tr>
+                    <tr>
+                        <td>Trabajador</td>
+                        <td><a href="trabajadorindex.html">Trabajador Index</a></td>
+                    </tr>
+                    <tr>
+                        <td>Trabajador</td>
+                        <td><a href="usuario.html">Usuario</a></td>
+                    </tr>
+                    <tr>
+                        <td>Trabajador</td>
+                        <td><a href="usuarioindex.html">Usuario Index</a></td>
+                    </tr>
+                    <tr>
+                        <td>Trabajador</td>
+                        <td><a href="ubicacion.html">Ubicación</a></td>
+                    </tr>
+                </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rol</th>
+                    <th>Acceso a Página</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Administrador</td>
+                    <td><a href="aboutus.html">About Us</a></td>
+                </tr>
+                <tr>
+                    <td>Administrador</td>
+                    <td><a href="admin.html">Admin</a></td>
+                </tr>
+                <tr>
+                    <td>Administrador</td>
+                    <td><a href="adminindex.html">Admin Index</a></td>
+                </tr>
+                <tr>
+                    <td>Administrador</td>
+                    <td><a href="trabajador.html">Trabajador</a></td>
+                </tr>
+                <tr>
+                    <td>Administrador</td>
+                    <td><a href="trabajadorindex.html">Trabajador Index</a></td>
+                </tr>
+                <tr>
+                    <td>Administrador</td>
+                    <td><a href="usuario.html">Usuario</a></td>
+                </tr>
+                <tr>
+                    <td>Administrador</td>
+                    <td><a href="usuarioindex.html">Usuario Index</a></td>
+                </tr>
+                <tr>
+                    <td>Administrador</td>
+                    <td><a href="ubicacion.html">Ubicación</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br><br><br>
+    <footer>
+        <p>Alvaro Muñoz | Jean Macias</p>
+    </footer>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>

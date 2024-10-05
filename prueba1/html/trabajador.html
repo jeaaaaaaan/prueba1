@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajador</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body onload="validarAcceso()">
+    <div class="conjunt">
+        <header>
+            <h2  id="mensajeBienvenida"></h2>
+            <h1>Institución Universitaria de Barranquilla</h1>
+            <img src="../img/abajo.png" id="Bretractil" height="30px" width="30px" onclick="retractil()">
+        </header>
+        
+        <nav id="HD">
+            <ul>
+                <li><a href="trabajadorindex.html">Menú principal</a></li>
+                <li><a href="aboutus.html">¿Qué somos?</a></li>
+                <li><a href="ubicacion.html">¿Dónde estamos?</a></li>
+                <li><a href="listadmins.html">Nuestros Administradores</a></li>
+                <li><a class="cerrar" onclick="cerrarSesion()">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+
+        <div class="titulo">
+            <h1>Formulario de Trabajador</h1>
+        </div>
+        
+        <div class="caja2">
+            <form id="formularioTrabajador">
+                <input type="text" id="nombre" placeholder="Nombre" required>
+                <input type="text" id="apellido" placeholder="Apellido" required>
+                <input type="email" id="correo" placeholder="Correo" required>
+                <input type="text" id="titulo" placeholder="Título" required>
+                <input type="text" id="ubicacion" placeholder="Ubicación" required>
+                <input type="number" id="edad" placeholder="Edad" min="1" required>
+                <input type="text" id="telefono" placeholder="Número de Teléfono" required>
+        
+        
+                <label>Género:</label> 
+                <div class="checkbox">
+                    <input type="radio" name="genero" value="M" required> Masculino
+                    <input type="radio" name="genero" value="F"> Femenino
+                    <input type="radio" name="genero" value="Otros"> Otros
+                </div>
+                <br>
+                <div class="seleccion">
+                    <label for="nivelEducativo">Nivel Educativo:</label>
+                    <select id="nivelEducativo" required>
+                        <option value="" disabled selected>Seleccionar</option>
+                        <option value="Tecnico">Técnico</option>
+                        <option value="Tecnologo">Tecnólogo</option>
+                        <option value="Profesional">Profesional</option>
+                    </select>
+                </div>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        
+        </div>
+
+        <footer>
+            <p>Alvaro Muñoz | Jean Macias</p>
+        </footer>
+        
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
+
