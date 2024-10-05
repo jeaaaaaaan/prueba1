@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const cargarAdministradores = async () => {
-    const tablaAdminsBody = document.getElementById('tablaadmins').querySelector('tbody'); // Solo selecciona el <tbody>
+    const tablaAdminsBody = document.getElementById('tablaadmins').querySelector('tbody');
     const totalAdmins = document.getElementById('totalAdmins');
 
     try {
